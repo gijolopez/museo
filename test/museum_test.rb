@@ -2,6 +2,7 @@ require 'minitest'
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/museum'
+require './lib/curator'
 
 class MuseumTest < Minitest::Test
   def test_it_exists
